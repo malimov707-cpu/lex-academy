@@ -1,0 +1,73 @@
+LEGAL EDU — LOYIHA HISOBOTI
+Taqdimot uchun tayyor matn
+Holat sanasi: 2026-yil 21-noyabr
+
+1. LOYIHA HAQIDA
+
+Legal EDU — huquqiy ta’limni boshqarish, interaktiv dars o‘tish va sud jarayonlarini o‘quv simulyatsiyasida mashq qilish uchun veb-platforma. Tizim kurslar, darslar, talabalar, topshiriqlar, testlar, virtual sud va ta’lim natijalarini bitta muhitda birlashtiradi.
+
+Asosiy maqsad — o‘qituvchi va talaba ish jarayonini raqamlashtirish, huquqiy bilimni amaliy mashqlar bilan mustahkamlash va natijalarni kuzatish.
+
+2. FOYDALANUVCHI ROLLARI
+
+Super administrator — butun platforma, foydalanuvchilar, xavfsizlik va umumiy sozlamalarni boshqaradi.
+Akademiya administratori — ta’lim kontenti, kurslar, hisobotlar va platforma ishini boshqaradi.
+O‘qituvchi — o‘ziga tegishli yoki biriktirilgan kurslar, talabalar, darslar, testlar, topshiriqlar va sud mashg‘ulotlarini boshqaradi.
+Mentor — biriktirilgan talabalar va ularning topshiriqlari bilan ishlaydi.
+Talaba — kurslarda o‘qiydi, dars va testlarni bajaradi, topshiriq yuboradi va virtual sudda qatnashadi.
+
+3. ASOSIY MODULLAR
+
+Ommaviy sayt — platforma haqida, ochiq kurslar, aloqa va ma’lumot sahifalari.
+Kurs boshqaruvi — kurslar, modullar, darslar, materiallar, guruhlar va kursga yozilish.
+Talabalar ta’lim muhiti — kursni o‘rganish, darsni yakunlash, topshiriq topshirish va test ishlash.
+O‘qituvchi paneli — ko‘rsatkichlar, kurslar, talabalar, darslar, topshiriqlar va test natijalari.
+Baholash — yuborilgan ishlar va qo‘lda tekshirilishi kerak bo‘lgan testlarni ko‘rish, kurs topshiriqlarini boshqarish.
+Darslar — kurs modullari, dars materiallari va mashg‘ulot jadvaliga kirish.
+Virtual Courtroom — yakka va guruhli sud simulyatsiyasi, sud rollari, dalillar, bosqichlar, transcript va mashg‘ulot yakuni.
+AI Ustoz — konfiguratsiya va xizmat kalitlari mavjud bo‘lganda AI yordamidagi ta’lim funksiyalari.
+Huquqiy kutubxona — huquqiy manbalar va o‘quv materiallarini ko‘rish.
+Bildirishnomalar, statistika, hisobotlar va audit yozuvlari — tizimdagi faollik hamda boshqaruvni kuzatish.
+
+4. VIRTUAL COURTROOM
+
+Sud jarayoni yakka sessiya yoki guruh mashg‘uloti sifatida olib boriladi. Guruhli oqimda to‘qqizta faol rol va kuzatuvchilar qo‘llab-quvvatlanadi. O‘qituvchi guruh va ssenariyni tanlaydi, mashg‘ulot bosqichlarini boshqaradi, talaba esa roliga mos nutq, savol, e’tiroz yoki dalil bilan ishlash harakatlarini bajaradi.
+
+Natijalar uch yo‘nalishda yuritiladi:
+1) Sud bahsi — ayblov va himoya tomonlari bir xil jamoaviy mezonlar bo‘yicha taqqoslanadi. Yetarli dalil bo‘lmasa g‘olib belgilanmaydi.
+2) Individual rol bahosi — talabaning tegishli rubrika mezonlari bo‘yicha bajarishi baholanadi.
+3) Akademik faollik — o‘qituvchi tomonidan alohida kiritiladigan dars faolligi ballari.
+
+AI bahosi tavsiya sifatida beriladi. O‘qituvchi natijani tekshiradi va tasdiqlaydi. Tasdiqlanmagan baho talabaning yakuniy natijasi sifatida ko‘rsatilmaydi. Guruh baholari, dalillar va qayta ko‘rib chiqish so‘rovlari uchun audit yozuvlari yuritiladi. Kuzatuvchining ovozi jamoa g‘olibini belgilamaydi.
+
+5. TEXNOLOGIK ASOS
+
+Backend — PHP 8.4 va Laravel Framework 13.42.
+Interfeys — Laravel Blade, JavaScript ES modullari va Tailwind CSS 4.
+Frontend yig‘ish — Vite 8.
+3D sud sahnasi — Babylon.js 9.
+Ma’lumotlar bazasi — Laravel migratsiyalari va Eloquent ORM orqali boshqariladi. Loyiha SQLite bilan ishlay oladi, haqiqiy ish muhiti .env sozlamasiga bog‘liq.
+Kirish nazorati — Laravel sessiyalari, rollar, route middleware va ownership tekshiruvlari.
+Testlash — Pest 5.
+
+6. LOYIHA KO‘LAMI
+
+Joriy repoda 238 ta route, 35 ta ma’lumotlar migratsiyasi, 124 ta Blade ko‘rinishi va 67 ta HTTP controller fayli bor. Bu sonlar kod bazasining joriy sanada olingan texnik ko‘rsatkichlari, foydalanuvchilar soni yoki production trafikini anglatmaydi.
+
+7. XAVFSIZLIK VA MA’LUMOTLAR
+
+Foydalanuvchi roli route darajasida tekshiriladi. Kurs va guruh ma’lumotlariga kirishda o‘qituvchining egaligi yoki biriktirilishi hisobga olinadi. Talaba boshqa foydalanuvchining shaxsiy baholarini ko‘ra olmaydi. Ovoz yozuvini saqlash alohida yoqilmagan bo‘lsa, xom audio doimiy saqlanmaydi. Transcriptni saqlash foydalanuvchi roziligi va sessiya sozlamalariga bog‘liq.
+
+Kalitlar va parollar repoga oddiy matn sifatida qo‘shilmasligi, deployment muhitida maxfiy environment sozlamalarida saqlanishi lozim.
+
+8. TEKSHIRUV NATIJALARI
+
+2026-yil 21-noyabrda to‘liq Pest test to‘plami ishga tushirildi. Natija — 363 ta testdan 362 tasi o‘tdi, 1 tasi skip qilindi, 2023 ta assertion bajarildi. Skip qilingan test tashqi brauzer sinoviga bog‘liq ixtiyoriy sinovdir.
+
+Virtual sud, guruhli qatnashuv va baholash bo‘yicha alohida testlarda 40 ta test va 296 ta assertion o‘tgan. Ovoz lifecycle, realtime endpoint, speech va guruh oqimi bo‘yicha alohida testlarda 24 ta test va 126 ta assertion o‘tgan. Frontend production build muvaffaqiyatli yig‘ilgan.
+
+Chegara — server-side va avtomatlashtirilgan testlar haqiqiy foydalanuvchi qurilmasidagi mikrofon ruxsatini, tarmoq sifatini yoki tashqi ovoz xizmatining joriy mavjudligini to‘liq kafolatlamaydi. Jonli mikrofon bilan yakuniy sinov deployment muhiti, faol server kaliti va ruxsat berilgan brauzer orqali o‘tkazilishi kerak.
+
+9. TAQDIMOTDA AYTISH UCHUN QISQA XULOSA
+
+Legal EDU kurs boshqaruvi va huquqiy ta’limni virtual sud amaliyoti bilan birlashtiradi. Platformada besh foydalanuvchi roli, kurs va dars modullari, test-topshiriq baholash, kutubxona hamda yakka va guruhli sud mashg‘ulotlari mavjud. Sud natijasi, talabaning individual roli va darsdagi akademik faolligi alohida yuritiladi. O‘qituvchi natijani ko‘rib tasdiqlaydi, talaba esa faqat o‘zining tasdiqlangan shaxsiy baholarini ko‘radi. Joriy testlar asosiy funksional oqimlar o‘tayotganini ko‘rsatadi, jonli ovozning production sinovi esa haqiqiy mikrofon va xizmat sozlamalari bilan tasdiqlanishi zarur.

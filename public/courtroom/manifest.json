@@ -1,0 +1,212 @@
+{
+    "assets": [
+        {
+            "slug": "rocketbox-male",
+            "name": "Rocketbox Male Adult 04",
+            "kind": "avatar",
+            "path": "courtroom/rocketbox-male.glb",
+            "source_url": "https://github.com/927tanmay/react-ai-voice-avatar/blob/fc1398c2f8ba600c3676a5277684ed4f3e2731d7/assets/avatars/aarav.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "ebe6b1596256f314d1356cfc2f42d28203b5bf1864d0bf139845cb9d13ee6500",
+            "bytes": 4673948,
+            "triangle_count": 8684,
+            "metadata": {
+                "variant": "male",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        },
+        {
+            "slug": "rocketbox-female",
+            "name": "Rocketbox Female Adult 07",
+            "kind": "avatar",
+            "path": "courtroom/rocketbox-female.glb",
+            "source_url": "https://github.com/927tanmay/react-ai-voice-avatar/blob/fc1398c2f8ba600c3676a5277684ed4f3e2731d7/assets/avatars/ananya.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "da87409e17292434ce468113888e40e1ce2259ccfe27214a775f8b1cd58066dd",
+            "bytes": 4480100,
+            "triangle_count": 8308,
+            "metadata": {
+                "variant": "female",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        }
+    ],
+    "surfaces": [
+        {
+            "name": "wood",
+            "source_url": "https://polyhaven.com/a/wood_table_001",
+            "license": "CC0-1.0",
+            "files": [
+                "courtroom/wood-diff.jpg",
+                "courtroom/wood-nor_gl.jpg",
+                "courtroom/wood-arm.jpg"
+            ]
+        },
+        {
+            "name": "marble",
+            "source_url": "https://polyhaven.com/a/marble_01",
+            "license": "CC0-1.0",
+            "files": [
+                "courtroom/marble-diff.jpg",
+                "courtroom/marble-nor_gl.jpg",
+                "courtroom/marble-arm.jpg"
+            ]
+        }
+    ],
+    "environment": {
+        "path": "courtroom/studio.env",
+        "source_url": "https://assets.babylonjs.com/environments/studio.env"
+    },
+    "participant_models": [
+        {
+            "slug": "business-female-01",
+            "name": "Business Female 1",
+            "kind": "avatar",
+            "path": "courtroom/business-female-01.glb",
+            "source_url": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb/resolve/main/objects/business-female-01/business-female-01.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "31439cc12ebca4ec0f1dadab0c511cf8c86cf10071b162e5d0bf0b06a49ebe2d",
+            "bytes": 2420540,
+            "triangle_count": 8966,
+            "metadata": {
+                "variant": "business-female-01",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox/tree/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Business_Female_01",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        },
+        {
+            "slug": "business-female-02",
+            "name": "Business Female 2",
+            "kind": "avatar",
+            "path": "courtroom/business-female-02.glb",
+            "source_url": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb/resolve/main/objects/business-female-02/business-female-02.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "673d6275f4398d7f4441d2b3ed6074d1130e4d5ab2e43a55b398b5c2c57ae8b0",
+            "bytes": 4043516,
+            "triangle_count": 8640,
+            "metadata": {
+                "variant": "business-female-02",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox/tree/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Business_Female_02",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        },
+        {
+            "slug": "business-female-03",
+            "name": "Business Female 3",
+            "kind": "avatar",
+            "path": "courtroom/business-female-03.glb",
+            "source_url": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb/resolve/main/objects/business-female-03/business-female-03.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "d516786fa54e20058ccf4077edaba2192f227f1c793d98f5efc09d2989fbb58e",
+            "bytes": 2121376,
+            "triangle_count": 8438,
+            "metadata": {
+                "variant": "business-female-03",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox/tree/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Business_Female_03",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        },
+        {
+            "slug": "business-female-04",
+            "name": "Business Female 4",
+            "kind": "avatar",
+            "path": "courtroom/business-female-04.glb",
+            "source_url": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb/resolve/main/objects/business-female-04/business-female-04.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "7dc4993e62d1f223692cfff8c563d456653809fe793686825d69ada1937fde1f",
+            "bytes": 1301988,
+            "triangle_count": 8270,
+            "metadata": {
+                "variant": "business-female-04",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox/tree/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Business_Female_04",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        },
+        {
+            "slug": "business-male-01",
+            "name": "Business Male 1",
+            "kind": "avatar",
+            "path": "courtroom/business-male-01.glb",
+            "source_url": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb/resolve/main/objects/business-male-01/business-male-01.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "babe44276dd486759b36094852ef029e4ea232742c2cfd420f6c11aa828e1976",
+            "bytes": 1443176,
+            "triangle_count": 7435,
+            "metadata": {
+                "variant": "business-male-01",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox/tree/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Business_Male_01",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        },
+        {
+            "slug": "business-male-02",
+            "name": "Business Male 2",
+            "kind": "avatar",
+            "path": "courtroom/business-male-02.glb",
+            "source_url": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb/resolve/main/objects/business-male-02/business-male-02.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "8ebde195e6208e6145fea93d23a68bb203c862e5ea242cd1b40103b244cb4988",
+            "bytes": 1929132,
+            "triangle_count": 7448,
+            "metadata": {
+                "variant": "business-male-02",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox/tree/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Business_Male_02",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        },
+        {
+            "slug": "male-adult-03",
+            "name": "Male Adult 3",
+            "kind": "avatar",
+            "path": "courtroom/male-adult-03.glb",
+            "source_url": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb/resolve/main/objects/male-adult-03/male-adult-03.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "3d49625ae62a379aaad1ef06dd7bd32ffea78141b715b820d828edd3bae8201b",
+            "bytes": 3373868,
+            "triangle_count": 7200,
+            "metadata": {
+                "variant": "male-adult-03",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox/tree/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Male_Adult_03",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        },
+        {
+            "slug": "male-adult-08",
+            "name": "Male Adult 8",
+            "kind": "avatar",
+            "path": "courtroom/male-adult-08.glb",
+            "source_url": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb/resolve/main/objects/male-adult-08/male-adult-08.glb",
+            "license": "MIT",
+            "license_path": "courtroom/LICENSE-Rocketbox.txt",
+            "checksum": "002305e09fdaffccefce42e9fe530545877f67dc884f9c52e8d1c6e495168055",
+            "bytes": 2460352,
+            "triangle_count": 7364,
+            "metadata": {
+                "variant": "male-adult-08",
+                "upstream": "https://github.com/microsoft/Microsoft-Rocketbox/tree/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Male_Adult_08",
+                "rigged": true,
+                "facial_morph_targets": true
+            }
+        }
+    ]
+}

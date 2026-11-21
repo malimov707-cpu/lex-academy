@@ -1,0 +1,3 @@
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() === 'ru' ? 'ru' : 'uz' }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>@yield('heading') — HUQUQ AI Academy</title>@vite('resources/css/app.css')</head>
+<body class="min-h-screen bg-slate-50 px-6 py-20 text-slate-900"><main class="mx-auto max-w-xl rounded-2xl bg-white p-8"><p class="text-sm text-blue-700">HUQUQ AI Academy · @yield('code')</p><h1 class="mt-4 text-2xl font-semibold">@yield('heading')</h1><p class="mt-4 leading-relaxed">@yield('message')</p><a href="{{ route('login') }}" class="mt-6 inline-block text-blue-700 underline">{{ __('Tizimga kirish') }}</a></main></body></html>

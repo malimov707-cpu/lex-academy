@@ -1,0 +1,213 @@
+[
+    {
+        "slug": "shartnoma-majburiyati-boyicha-oquv-sudi",
+        "title": "Shartnoma majburiyati bo‘yicha o‘quv sudi",
+        "description": "To‘qima tashkilotlar o‘rtasidagi shartnoma nizosi asosida dalil, protsessual tartib va huquqiy asoslashni mashq qilish uchun simulyatsiya.",
+        "case_type": "contract_claim_training",
+        "difficulty": "intermediate",
+        "estimated_duration_minutes": 50,
+        "case_brief": "DIQQAT: bu faqat o‘quv uchun yaratilgan to‘qima ish. “Navqiron Ta’minot” MChJ shartnoma bo‘yicha tovarlar kech yetkazilganini, “Zarafshon Savdo” MChJ esa qabul qilish hujjatlari o‘z vaqtida taqdim etilmaganini bildiradi. Talaba protsessual rol doirasida dalillarni tahlil qiladi; simulyatsiya yuridik maslahat emas.",
+        "case_facts": "Taraflar o‘rtasida yozma yetkazib berish shartnomasi mavjud. Ombor qabul dalolatnomasida sana va e’tiroz qaydi bor. Elektron yozishmada yetkazish muddatini aniqlashtirish so‘ralgan. Hisob-faktura summasi taraflar tomonidan inkor qilinmagan, ammo kechikish sababi va javobgarlik bo‘yicha pozitsiyalar qarama-qarshi. Barcha nomlar va voqea tafsilotlari to‘qima.",
+        "learning_objectives": [
+            "Taraflar pozitsiyasini fakt va dalillarga ajratish",
+            "Dalilni sud bosqichiga mos taqdim etish",
+            "Savol va e’tirozlarni professional shaklda bayon qilish",
+            "Tekshirilgan huquqiy manbadan foydalanish"
+        ],
+        "teacher_notes": "Talaba tayyor javob emas, fakt–dalil–manba bog‘lanishini ko‘rsatishi kerak. Natija inson o‘qituvchisi tomonidan tekshiriladi.",
+        "claimant_context": "Da’vogar kech yetkazilganini da’vo qiladi; javobgarning e’tirozlarini ham halol ko‘rib chiqing.",
+        "respondent_context": "Javobgar qabul hujjatlari kech taqdim etilganini bildiradi; tasdiqlanmagan sabab yaratmang.",
+        "witness": {
+            "name": "Ombor mudiri — AI rol",
+            "description": "Dalolatnoma va qabul jarayoni bo‘yicha savollarga javob beradi.",
+            "instructions": "Faqat scenario faktlari va dalolatnomada bor ma’lumotni ayting.",
+            "private_context": "Savolga javob topilmasa “bu ma’lumot menda yo‘q” deb ayting."
+        },
+        "evidence": [
+            {
+                "title": "Yetkazib berish shartnomasi",
+                "type": "contract",
+                "summary": "To‘qima taraflar o‘rtasidagi o‘quv shartnomasi.",
+                "body": "O‘quv hujjati. Tovar turi, miqdori, yetkazish muddati va qabul qilish tartibi taraflar yozma kelishuvida ko‘rsatilgan. Hujjat real shaxs yoki tashkilotga tegishli emas.",
+                "source_label": "O‘qituvchi tayyorlagan to‘qima o‘quv materiali"
+            },
+            {
+                "title": "Ombor qabul dalolatnomasi",
+                "type": "protocol",
+                "summary": "Tovar qabul qilingan sana va qayd etilgan e’tirozlar.",
+                "body": "O‘quv hujjati. Dalolatnomada qabul sanasi, miqdor va kechikish bo‘yicha qayd bor. Imzolar to‘qima.",
+                "source_label": "O‘qituvchi tayyorlagan to‘qima o‘quv materiali"
+            },
+            {
+                "title": "Taraflarning elektron yozishmasi",
+                "type": "correspondence",
+                "summary": "Yetkazish muddati va hujjatlar bo‘yicha aniqlashtirishlar.",
+                "body": "O‘quv hujjati. Xabarlarda yetkazish sanasi va qabul hujjatlarini yuborish bo‘yicha savollar mavjud. Shaxsiy ma’lumotlar yo‘q.",
+                "source_label": "O‘qituvchi tayyorlagan to‘qima o‘quv materiali"
+            }
+        ],
+        "substantive_reference": {
+            "title": "O‘zbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+            "source_url": "https://lex.uz/docs/-111189",
+            "citation_text": "Rasmiy LexUZ hujjati. Ssenariyda shartnoma va fuqarolik-huquqiy munosabatlarni tahlil qilish uchun birlamchi manba sifatida foydalaniladi. Aniq norma talaba va o‘qituvchi tomonidan amaldagi tahrirda tekshiriladi."
+        }
+    },
+    {
+        "slug": "ijara-taminot-puli",
+        "title": "Ijara tugaganda ta’minot pulini qaytarish",
+        "description": "Ijarachi ushlab qolingan pulni so‘raydi. Ko‘chib kirishdagi qayd, kvartira qaytarilgan kundagi surat va ustaning hisobini solishtiring.",
+        "case_type": "rental_deposit_training",
+        "difficulty": "beginner",
+        "estimated_duration_minutes": 40,
+        "case_brief": "To‘qima ish. Ijarachi Nodira uy egasi Akmaldan 900 000 so‘mlik ta’minot pulini qaytarishni so‘raydi. Akmal eshikni tuzatish xarajatini shu puldan qoplaganini aytadi. Ikkala tomon ta’minot puli to‘langanini tan oladi.",
+        "case_facts": "1-martda kalit topshirilgan. 30-iyunda taraflar kvartirani birga ko‘rgan. 2-iyulda usta eshikni ko‘rib smeta bergan. Eshikning shikastlangan joyi qaysi sanada paydo bo‘lgani va xarajat to‘langanmi degan savollar bahsli.",
+        "learning_objectives": [
+            "Ikki sanaga oid holatni taqqoslab, shikastga doir da’voni tekshirish",
+            "Smeta bilan haqiqiy to‘lov orasidagi farqni tushuntirish",
+            "Guvohdan bevosita kuzatgan holatini aniqlashtirish"
+        ],
+        "teacher_notes": "Talabadan ikkita alohida masalani ko‘rsatishni so‘rang: shikast qachon paydo bo‘lgan va ta’mir uchun qancha sarflangan. Har biriga qaysi hujjat yordam berishini so‘rang.",
+        "claimant_context": "Boshlang‘ich qaydda ham eshik tirnalgani yozilgan. Qayd joyini aniq ko‘rsatmasligini hisobga oling.",
+        "respondent_context": "30-iyundagi surat va smetaga tayaning. To‘lov kvitansiyasi ishga qo‘shilmagan.",
+        "witness": {
+            "name": "Eshik ustasi",
+            "description": "2-iyulda eshikni ko‘rgan va smeta tuzgan.",
+            "instructions": "Faqat ko‘rgan iz va bergan smetangiz haqida javob bering.",
+            "private_context": "1-mart va 30-iyunda uyda bo‘lmagansiz. Siz ko‘rgan tirnalishning kelib chiqish sanasi noma’lum."
+        },
+        "evidence": [
+            {
+                "title": "Kalitni topshirish varaqasi",
+                "type": "protocol",
+                "summary": "1-martda ikki tomon imzolagan holat qaydi.",
+                "body": "1-mart. Kalit topshirildi. «Eshikda mayda tirnalish bor» degan satr yonida ikki tarafning imzosi bor. Tirnalishning uzunligi va joyi yozilmagan.",
+                "source_label": "To‘qima ish hujjati"
+            },
+            {
+                "title": "Kvartirani qaytarish yozishmasi",
+                "type": "correspondence",
+                "summary": "30-iyun kuni yuborilgan surat tavsifi va ijarachining javobi.",
+                "body": "30-iyun, soat 18:10. Uy egasi yuborgan suratda eshik tutqichi tagida uzun tirnalish ko‘rinadi. Ijarachi «Kirishda ham iz bor edi» deb yozgan. Birinchi kundagi surat ilova qilinmagan.",
+                "source_label": "To‘qima ish hujjati"
+            },
+            {
+                "title": "Eshikni ta’mirlash smetasi",
+                "type": "document",
+                "summary": "2-iyulda ustaning hisoblagan material va ish haqi.",
+                "body": "Sirtni pardozlash uchun material 350 000 so‘m, ish haqi 550 000 so‘m. Jami taxminiy qiymat 900 000 so‘m. Buyurtmani qabul qilish va to‘lov haqidagi joylar bo‘sh.",
+                "source_label": "To‘qima ish hujjati"
+            }
+        ],
+        "substantive_reference": {
+            "title": "O‘zbekiston Respublikasining Fuqarolik kodeksi (ikkinchi qism)",
+            "source_url": "https://lex.uz/docs/-180552",
+            "citation_text": "Mashg‘ulotga mos norma va uning amaldagi tahririni o‘qituvchi manbada tekshiradi."
+        }
+    },
+    {
+        "slug": "velosiped-tamiri-buyurtmasi",
+        "title": "Velosiped ta’mirida qo‘shimcha ish uchun haq",
+        "description": "Ustaxona qo‘shimcha ish kelishilganini, mijoz esa faqat narx so‘raganini aytadi. Buyurtma chegarasini xabarlar ketma-ketligi orqali tekshiring.",
+        "case_type": "repair_authorisation_training",
+        "difficulty": "intermediate",
+        "estimated_duration_minutes": 50,
+        "case_brief": "To‘qima ish. Mijoz velosiped tormozini ta’mirlatgan. Ustaxona zanjir ham almashtirilgani uchun qo‘shimcha 180 000 so‘m so‘raydi. Mijoz tormoz uchun kelishilgan 120 000 so‘mni to‘lagan. Sud mashqida aynan qo‘shimcha haq bo‘yicha har ikki pozitsiyani tekshiring.",
+        "case_facts": "8-may soat 09:00 da buyurtma qabul qilingan. Tushga yaqin qo‘shimcha ish haqida xabarlar almashilgan. 14:00 da mexanik zanjir almashtirilganini jurnalga yozgan. Mijoz bilan telefonlashuv yozuvi yoki qo‘shimcha imzolangan buyurtma ishda yo‘q.",
+        "learning_objectives": [
+            "Buyurtmada belgilangan ish bilan keyinchalik taklif qilingan ishni ajratish",
+            "Ish bajarilgani va mijoz roziligi uchun alohida dalil keltirish",
+            "Ikki xil talqin qilinishi mumkin bo‘lgan xabarga qarshi dalil berish"
+        ],
+        "teacher_notes": "Talabadan rozilikni tasdiqlaydigan va unga shubha tug‘diradigan ikkita xabarni ko‘rsatishni so‘rang. Jurnalda bajarilgan ish qaydi borligi nimani tasdiqlashini alohida muhokama qiling.",
+        "claimant_context": "Ustaxona qo‘shimcha ish haqi bo‘yicha da’vogar. Suhbatning to‘liq ketma-ketligini va mexanik qaydini tushuntiring.",
+        "respondent_context": "Mijoz javobgar. «Mayli» qaysi savolga javob bo‘lganini izohlang va narx ma’lum bo‘lgan vaqtni aniqlashtiring.",
+        "witness": {
+            "name": "Ustaxona mexanigi",
+            "description": "Ta’mirni bajargan va ishni jurnalga kiritgan.",
+            "instructions": "Ta’mir paytidagi shaxsiy kuzatuvingiz va jurnalga kiritgan yozuvingizni bayon qiling.",
+            "private_context": "Mijoz bilan yozishmani administrator olib borgan. Siz mijozdan bevosita topshiriq olmagansiz."
+        },
+        "evidence": [
+            {
+                "title": "Tormoz ta’miri buyurtmasi",
+                "type": "contract",
+                "summary": "Mijoz imzolagan boshlang‘ich ish tavsifi.",
+                "body": "8-may, 09:00. Old tormozni sozlash va kolodkani almashtirish — 120 000 so‘m. Qo‘shimcha ish uchun mijoz bilan narx kelishiladi. Zanjir bu ro‘yxatga kirmagan.",
+                "source_label": "To‘qima ish hujjati"
+            },
+            {
+                "title": "Administrator va mijoz xabarlari",
+                "type": "correspondence",
+                "summary": "Soat 11:20 dan 11:28 gacha bo‘lgan suhbat.",
+                "body": "11:20 Administrator: «Zanjir ham yeyilgan. Yangisining narxini aniqlaymi?» 11:22 Mijoz: «Mayli». 11:27 Administrator: «Almashtirish bilan 180 000 so‘m bo‘ladi». 11:28 Xabar o‘qilgan. Keyingi yozma javob ko‘rsatilmagan.",
+                "source_label": "To‘qima ish hujjati"
+            },
+            {
+                "title": "Mexanikning ish jurnali",
+                "type": "protocol",
+                "summary": "Ta’mir va vaqt haqida ustaxona ichki qaydi.",
+                "body": "8-may, 14:00. Mexanik tormoz ta’miri tugagani va yangi zanjir o‘rnatilganini qayd etgan. Ehtiyot qism raqami bor. Mijozning imzosi uchun ustun yo‘q.",
+                "source_label": "To‘qima ish hujjati"
+            }
+        ],
+        "substantive_reference": {
+            "title": "O‘zbekiston Respublikasining Fuqarolik kodeksi (ikkinchi qism)",
+            "source_url": "https://lex.uz/docs/-180552",
+            "citation_text": "Mashg‘ulotga mos norma va uning amaldagi tahririni o‘qituvchi manbada tekshiradi."
+        }
+    },
+    {
+        "slug": "uyga-kiralish-bilan-oqrilik",
+        "title": "Uyga kirib o‘g‘rilik — o‘quv jinoiy ishi",
+        "description": "To‘qima uy xujumligi ishi bo‘yicha ayblov va himoya pozitsiyalarini, guvoh ko‘rsatmasini hamda videokuzatuv dalilini tahlil qilish.",
+        "legal_area": "criminal",
+        "case_type": "criminal_theft_training",
+        "difficulty": "intermediate",
+        "estimated_duration_minutes": 55,
+        "case_brief": "Bu faqat o‘quv uchun yaratilgan to‘qima jinoiy ish. Shahardagi ko‘p xonali uyda bo‘lib o‘tgan o‘g‘rilik epizodiga oid dalillar ayblov va himoya tomonlari o‘rtasida bahs qilinadi. Ssenariy real ayblov, aybsizlik yoki sud qarori emas.",
+        "case_facts": "Kecha soat 22:40 da to‘qima uyda eshik o‘rnatilgan o‘ramdan shikastlangan. Egasi hech kimni uyga qo‘ymaganini, eshik kaliti o‘zida bo‘lganini aytadi. Qorovul yo‘lak kamerasi soat 22:38 da bir kishining kirish qismini ko‘rsatadi, ammo yuzni aniq tasvirlamaydi. Qo‘lqop va kirish yo‘li bo‘yicha laboratoriya tahlili natijalari bahsli. Ayblanuvchi orqa kirish orqali uyga kirganini inkor qiladi.",
+        "learning_objectives": [
+            "Ayblov va himoya pozitsiyasini fakt, dalil va huquqiy manba asosida ajratish",
+            "Guvoh ko‘rsatmasini video dalil bilan taqqoslash",
+            "Dalilning ishonchliligi va tadqiq etilgan chegarasini baholash",
+            "Jinoiy protsessual qoidalarga rioya qilish"
+        ],
+        "teacher_notes": "Talabalarni yuzni aniqlik bilan tasdiqlash mumkinmi yoki yo‘qmi, kameraning vaqtini qo‘llab-qoratishni va guvoh ko‘rsatmasining bevosita kuzatishga asoslanganini qayd qilishiga e’tibor qarating.",
+        "claimant_context": "Ayblov pozitsiyasi: eshik shikastlangani, qorovul kamerasi va ayblanuvchining kirish yo‘li ma’lumotini dalil deb asoslang.",
+        "respondent_context": "Himoya pozitsiyasi: kamerada yuz ko‘rinmasligi, bir hil kiyim yoki shaxsni aniqlay olmaslik va tashqi dalil uchun qayta tekshiruvni talab qiling.",
+        "witness": {
+            "name": "Xavfsizlik qorovuli",
+            "description": "Yo‘lak kamerasi va eshik shikastlanishini kuzatgan.",
+            "instructions": "Faqat bevosita ko‘rgan, eshitgan yoki o‘z jurnalida yozilgan ma’lumotni bayon qiling.",
+            "private_context": "Kamera yozuvi to‘liq emas. Siz uy egasi yoki ayblanuvchining kimligini bevosita bilmaysiz."
+        },
+        "evidence": [
+            {
+                "title": "Yo‘lak kamera yozuvi",
+                "type": "video",
+                "summary": "22:38 da ko‘rinishi aniq bo‘lmagan bir kishining kirish yo‘lagidagi videosi.",
+                "body": "22:38:10 da bir kishi ko‘k kurtkada karyovuqqa kiradi. 22:40:05 da o‘sha yo‘lak bo‘sh. Yuz va yuzdagi xususiyatlar ko‘rinmaydi. Vaqt yozuvi yorug‘lik va kameraning kalibrlanishiga bog‘liq.",
+                "source_label": "O‘quv uchun tayyorlangan to‘qima video ma’lumoti"
+            },
+            {
+                "title": "Uy eshigi shikastlanish protokoli",
+                "type": "protocol",
+                "summary": "Eshik simlarini va o‘ramni tekshirish natijasi.",
+                "body": "22:45 da tuzilgan protokol. Eshik o‘ramida mexanik shikast bor. Protokolda boshqa ishlab chiqaruvchining alomatlari, izlar va qoldiq moddalari saqlangan. Dalilni kim olganini, tekshiruv necha soatda olinganini ko‘rsatish kerak.",
+                "source_label": "O‘quv uchun tayyorlangan to‘qima ekspertiza protokoli"
+            },
+            {
+                "title": "Ayblanuvchining o‘zi bilan suhbat bayoni",
+                "type": "statement",
+                "summary": "Ayblanuvchi ko‘k kurtka va soat 22:38 da qayerdaligini aytadi.",
+                "body": "Ayblanuvchi ko‘k kurtka kiyganini inkor etmaydi, ammo u o‘sha vaqtda do‘stining uyida bo‘lganini aytadi. Jurnal, guvoh yoki transport ma’lumotini qo‘shib bergani ko‘rsatilmagan.",
+                "source_label": "O‘quv uchun tayyorlangan to‘qima bayon"
+            }
+        ],
+        "substantive_reference": {
+            "title": "O‘zbekiston Respublikasining Jinoyat kodeksi",
+            "source_url": "https://lex.uz/docs/-111453",
+            "citation_text": "Mashg‘ulot uchun birlamchi jinoiy-huquqiy manba. Modda mazmuni, amaldagi tahrir va sud amaliyoti o‘qituvchi tomonidan mashg‘ulot oldidan tekshiriladi."
+        }
+    }
+]
